@@ -1,15 +1,15 @@
 //
-//  HzzFPSStatus.m
+//  HzzFPS.m
 //  HzzFPS
 //
 //  Created by laolai on 2021/3/8.
 //
 
-#import "HzzFPSStatus.h"
+#import "HzzFPS.h"
 #import <UIKit/UIKit.h>
 
 
-@interface HzzFPSStatus ()
+@interface HzzFPS ()
 {
     UIWindow *_window;
     UILabel *_fpsLabel;
@@ -21,13 +21,13 @@
 
 @end
 
-@implementation HzzFPSStatus
+@implementation HzzFPS
 
 + (instancetype)shareInstance {
-    static HzzFPSStatus *shareInstance;
+    static HzzFPS *shareInstance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        shareInstance = [[HzzFPSStatus alloc] init];
+        shareInstance = [[HzzFPS alloc] init];
     });
     return shareInstance;;
 }
@@ -114,7 +114,7 @@
 
 /// 打开跟踪并处理结果
 - (void)openWithHandler:(FpsHandlerBlock)fpsHandler{
-    [[HzzFPSStatus shareInstance] open];
+    [[HzzFPS shareInstance] open];
     _fpsHandler = fpsHandler;
 }
 

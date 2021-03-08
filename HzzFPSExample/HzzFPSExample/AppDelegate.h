@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  HzzFPS
+//  HzzFPSExample
 //
 //  Created by laolai on 2021/3/8.
 //
@@ -10,6 +10,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
+
 
 @end
 

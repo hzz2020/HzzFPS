@@ -1,6 +1,6 @@
 //
 //  main.m
-//  HzzFPS
+//  HzzFPSExample
 //
 //  Created by laolai on 2021/3/8.
 //

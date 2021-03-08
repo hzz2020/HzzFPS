@@ -1,5 +1,5 @@
 //
-//  HzzFPSStatus.h
+//  HzzFPS.h
 //  HzzFPS
 //
 //  Created by laolai on 2021/3/8.
@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 typedef void(^FpsHandlerBlock)(NSInteger fpsValue);
 
-@interface HzzFPSStatus : NSObject
+@interface HzzFPS : NSObject
 
 @property (nonatomic, copy) FpsHandlerBlock fpsHandler;
 
