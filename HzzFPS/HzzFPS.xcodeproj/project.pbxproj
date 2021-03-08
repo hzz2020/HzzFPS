@@ -13,7 +13,7 @@
 		A6BF7EF925F612FA00D5A37A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6BF7EF825F612FA00D5A37A /* Assets.xcassets */; };
 		A6BF7EFC25F612FA00D5A37A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6BF7EFA25F612FA00D5A37A /* LaunchScreen.storyboard */; };
 		A6BF7EFF25F612FA00D5A37A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BF7EFE25F612FA00D5A37A /* main.m */; };
-		A6BF7F0A25F6136C00D5A37A /* HzzFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BF7F0925F6136C00D5A37A /* HzzFPSStatus.m */; };
+		A6BF7F1225F629CE00D5A37A /* HzzFPSStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BF7F1125F629CE00D5A37A /* HzzFPSStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		A6BF7EFB25F612FA00D5A37A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6BF7EFD25F612FA00D5A37A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6BF7EFE25F612FA00D5A37A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6BF7F0825F6136C00D5A37A /* HzzFPSStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HzzFPSStatus.h; sourceTree = "<group>"; };
-		A6BF7F0925F6136C00D5A37A /* HzzFPSStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HzzFPSStatus.m; sourceTree = "<group>"; };
+		A6BF7F1025F629CE00D5A37A /* HzzFPSStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HzzFPSStatus.h; sourceTree = "<group>"; };
+		A6BF7F1125F629CE00D5A37A /* HzzFPSStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HzzFPSStatus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 		A6BF7EE025F612F800D5A37A = {
 			isa = PBXGroup;
 			children = (
+				A6BF7F0F25F629CE00D5A37A /* HzzFPSStatus */,
 				A6BF7EEB25F612F800D5A37A /* HzzFPS */,
 				A6BF7EEA25F612F800D5A37A /* Products */,
 			);
@@ -61,7 +62,6 @@
 		A6BF7EEB25F612F800D5A37A /* HzzFPS */ = {
 			isa = PBXGroup;
 			children = (
-				A6BF7F0725F6134100D5A37A /* Classes */,
 				A6BF7EEC25F612F800D5A37A /* AppDelegate.h */,
 				A6BF7EED25F612F800D5A37A /* AppDelegate.m */,
 				A6BF7EF225F612F800D5A37A /* ViewController.h */,
@@ -75,13 +75,14 @@
 			path = HzzFPS;
 			sourceTree = "<group>";
 		};
-		A6BF7F0725F6134100D5A37A /* Classes */ = {
+		A6BF7F0F25F629CE00D5A37A /* HzzFPSStatus */ = {
 			isa = PBXGroup;
 			children = (
-				A6BF7F0825F6136C00D5A37A /* HzzFPSStatus.h */,
-				A6BF7F0925F6136C00D5A37A /* HzzFPSStatus.m */,
+				A6BF7F1025F629CE00D5A37A /* HzzFPSStatus.h */,
+				A6BF7F1125F629CE00D5A37A /* HzzFPSStatus.m */,
 			);
-			path = Classes;
+			name = HzzFPSStatus;
+			path = ../HzzFPSStatus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +156,7 @@
 			files = (
 				A6BF7EF425F612F800D5A37A /* ViewController.m in Sources */,
 				A6BF7EEE25F612F800D5A37A /* AppDelegate.m in Sources */,
-				A6BF7F0A25F6136C00D5A37A /* HzzFPSStatus.m in Sources */,
+				A6BF7F1225F629CE00D5A37A /* HzzFPSStatus.m in Sources */,
 				A6BF7EFF25F612FA00D5A37A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
